@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- 這是移動端的-->
+    <title>float</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            border: 2px solid red;/*solid 实线 red 红色 两个像素的红色实线*/
+            margin: 20px;
+            float: right;
+        }
+        /* 這是浮動屬性 clear:both 是消除浮動 */
+        .float{
+            float: left;
+        }
+        .nofloat{
+            float: none;
+            clear: both;
+        }
+        p{
+            text-indent: 25px;
+        }
+    </style>
+</head>
+<body background="image/background.jpeg">
+    <!-- <div class="float">1</div>
+    <div class="float">2</div>
+    <div class="nofloat">3</div>
+    <div class="nofloat">4</div>
+    <p>hello <a href="http://www.baidu.com">bai<a href="http://www.taobao.com">taobao </a>du </a><br>
+        </p>
+        <img width="400" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1608472044294&di=aa79285f99667eeb00ee67844989bd1c&imgtype=0&src=http%3A%2F%2Fa3.att.hudong.com%2F02%2F38%2F01300000237560123245382609951.jpg">
+    &nbsp;&lt;&gt;&copy;<br>
+    <table align="center" border="1" width="400" height="500">
+        <tr >
+            <td colspan="4"></td>
+        </tr>
+        <tr>
+            <td colspan="4"></td>
+        </tr>
+        
+    </table> -->
+    <table align="center" border="1" width="800" height="100">
+        <tr>
+            <td width="300">
+                <img src="image/3.png" height="100" alt="在图片无法加载时的替代文字">
+            </td>
+            <td width="40">
+                <a href="http://www.baidu.com">百度</a>
+            </td>
+            <td width="60">
+                <!-- a标签中用# 设置跳转链接 表示的是当前页面 一般用于开发时的测试使用 ，后续可修改 -->
+                <a href="#">表示当前页面</a>
+            </td>
+            <td width="40"></td>
+            <td width="60"></td>
+            <td width="40"></td>
+            <td width="60"></td>
+            <td width="40"></td>
+            <td width="60"></td>
+            <td width="40"></td>
+            <td width="60"></td>
+        </tr>
+    </table>
+    <br>
+    <table align="center" border="1" height="150" width="600">
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+    </table>
+    <table border="1" align="center" height="200" width="800">
+        <tr height="85">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr height="50">
+            <td></td>
+            <td rowspan="2"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr height="65">
+            <td></td>
+            
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <table align="center" border="1" height="80" width="600" cellspacing="10">
+        <!-- table 中的cellspacing 屬性是控制單元格之間間隙的 默認為1 
+        cellpadding 设置单元格内容和边框之间的距离 以数字为单位-->
+        <tr align="center">
+            <!-- td 里面 有属性 bgcolor 是设置单元格中的背景颜色 -->
+            <td bgcolor="purple">123hfdja</td>
+            <td bgcolor="yellow">345d</td>
+            <td>1345</td>
+        </tr>
+    </table>
+    <table border="1" align="center" width="200" height="100">
+        <!-- th 标签可以专门用于表格的标题栏 会自动加粗居中  -->
+        <tr>
+            <th>姓名</th>
+        </tr>
+        <tr>
+            <td>
+                老王
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
